@@ -1,0 +1,211 @@
+
+
+
+* {
+    box-sizing: border-box;    
+    margin: 0px;
+    padding: 0px;    
+}
+body {  
+    font-size: 12px;
+    color: white;    
+}
+
+.container { /* ---->[header]+[nav]+[main]+[footer] -----*/
+    display: grid; 
+    grid-template-columns: 4;
+        
+}
+
+header, nav, main, footer {    
+    grid-column: 1/5;  
+    
+}
+main {
+    height: 100%;
+}
+header, nav, footer, #section0-title, #section0-action, #section1, #section2 {
+  border-radius: 5px; 
+}
+/* ---------------------------Header------------------ */
+header  {
+    background-color: navy; 
+}
+#section0-title, #section0-action, #section1, #section2 {
+    margin:2px;
+}
+
+#logo_n_cart {
+    display: flex; 
+    padding: 15px  
+}
+#cart{
+    margin-left:100px;
+}
+/* ---------------------------Footer------------------ */
+footer {
+    background-color: lightgray;
+}
+/* ----------------------------Nav------------------ */
+nav {
+    font-weight: bolder;
+    background-color: green; 
+    color: white;   
+}
+#navlist {                          /* Navigation links */
+    margin: 10px 0px 10px 10px;
+}
+#navlist >li > a {
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navlist > li > a:visited {
+    color:white;
+}
+#navlist > li {
+    display: inline; /* displays li left to right */
+    padding: 5px;
+    
+} 
+
+/* ----------------------End top-level items-------- */
+
+
+/* ----------------------Headers / Titles-------- */
+#section0-title, #section0-action {                          
+    padding: 4px;   
+    border-radius: 5px 5px 5px 5px;
+}
+#section0-title {                           /* Todo List title */
+    background-color: #d5dae5;
+}
+#section0-action {                          /* Add task title */
+    text-align: center;
+    background-color:lightsteelblue;    
+}
+#section2 {
+    background-color: rgb(229, 238, 238);
+}
+/* --------------------------Section1---------------- */
+#form1 {
+    text-align:center;    
+    border-radius: 5px;;
+    background-color: gold;   
+}
+#task1, #description {                   /* input boxes */
+    width: 250;
+    border: 2px solid navy;
+    padding: 5px;
+    border-radius: 5px;
+}
+#description {                          /* text area */      
+    resize:vertical;     
+}
+#tasklabel, #desclabel {
+    margin: 10px 0px 2px 0px;
+}
+#addbutton {    
+    margin-bottom: 8px;     
+}
+
+/* -------------------Section-2-To-do list------------------ */
+
+#list1 > li {
+    list-style-type: none;    
+    font-weight: lighter;
+    text-align: center;   
+ }
+
+ #list1 {                           /* the whole ul */
+    text-align: left;
+    font-weight: bolder;
+ }
+.btn {
+    margin: 2px;
+}
+
+/*~ Mobile: 360 x 720 - not needed*/
+
+
+/*~ Tablet: 768 x 1024 */
+@media screen and (min-width: 768px) {
+    
+    .prodimage {
+        height: 50px;
+        }
+    body {
+        font-size: larger;
+    }
+    footer {
+        font-size:12px;
+    }
+    
+}
+/*~ Laptop: 1366 x */
+@media screen and (min-width: 1366px) {
+   
+    .prodimage {
+        height: 75px;
+    }   
+    body {
+        font-size: larger;
+    }
+    footer {
+        font-size:12px;
+    }
+}
+/*~ Laptop: 1920x */
+@media screen and (min-width: 1920px) {
+    
+    .prodimage {
+        height: 100px;
+    }    
+    body {
+        font-size: larger;
+    }
+    footer {
+        font-size:12px;
+    }
+    
+}
+
+.prodimage {
+    height:50px;
+}
+
+.price {
+    color: red;
+    font-size: 14px;
+}
+/* ----------------------------Font-Awesome------------------ */
+.fa {    
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+    padding: 4px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-official {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter-square {
+    background: #55acee;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest-square {
+    background: #cb2027;
+    color: white;
+}
+/* End Font-Awesome */
