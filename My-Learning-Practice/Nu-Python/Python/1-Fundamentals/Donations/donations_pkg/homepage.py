@@ -9,4 +9,16 @@ def show_homepage():
     print("|              5. Exit                    |")
     print("------------------------------------------")
 
-    
+def donate(username):
+    donation_amt = input("\nEnter amount to donate: $ ")
+    donation_string = username + " donated $" + donation_amt
+    print("Thank you for your donation!")
+    return donation_string
+
+def show_donations(donations):
+    print("\n--- All Donations ---")
+    if not donations:
+        print("\nCurrently, there are no donations.")
+    else:
+        for donation in donations:
+            print(donation)
