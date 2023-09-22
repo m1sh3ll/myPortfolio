@@ -1,0 +1,133 @@
+import random
+
+# class to keep track of the user, rounds chosen
+
+
+class Game:
+    def __init__(self, name, rounds):
+        self.name = name
+        self.rounds = rounds
+
+# subclass to keep track of the user and computer score, ties
+
+
+class GameScore(Game):
+    def __init__(self, name, rounds):
+        super().__init__(name, rounds)
+        self.userwins = 0
+        self.computerwins = 0
+        self.ties = 0
+    # display the score
+
+    def show_score(self):
+        print(self.name + ":" + str(self.userwins) +
+              "- Computer:" + str(self.computerwins))
+
+    # increase the user score
+    def user_scores(self):
+        self.userwins += 1
+
+    # increase the computer score
+    def computer_scores(self):
+        self.computerwins += 1
+
+    # increase the ties
+    def tie_game(self):
+        self.ties += 1
+
+
+# game play starts here
+def play_game():
+    current_round = 0
+    total_rounds = 0
+    users_choice = ""
+    computers_choice = ""
+    rand_int = ["1", "2", "3"]
+
+    name = input("Please enter your name: ")
+
+    while (True):
+        rounds = input(
+            "Enter number of rounds to play (between 1 to 10): ")
+        total_rounds = int(rounds)
+        if total_rounds <= 10 and total_rounds > 0:
+            game = GameScore(name, total_rounds)
+            break
+        else:
+            print("Invalid input! Please enter 1 to 10")
+
+    while (True):
+        if current_round < total_rounds:
+            # show the round and prompt the user to enter choice
+            print("Round #:" + str(current_round + 1))
+            users_choice = input(
+                game.name + ", Enter 1 [Rock], 2 [Paper], 3 [Scissors]: ")
+            # display the result of the users choice
+            if users_choice == "1":
+                print("You chose Rock")
+            elif users_choice == "2":
+                print("You chose Paper")
+            elif users_choice == "3":
+                print("You chose Scissors")
+
+            # computer's choice is chosen at random
+            computers_choice == random.choice(rand_int)
+            print("Computers choice", computers_choice)
+            # display the result of the computers choice
+            if computers_choice == "1":
+                print("Computer chose Rock")
+            elif computers_choice == "2":
+                print("Computer chose Paper")
+            elif computers_choice == "3":
+                print("Computer chose Scissors")
+
+            # score the game
+            if users_choice == computers_choice:
+                # tie the game
+                game.tie_game()
+            else:
+                if (users_choice == "1" and computers_choice == "3") or (users_choice == "2" and computers_choice == "1") or (users_choice == "3" and computers_choice == "2"):
+                    # display the explanation for the user
+                    if users_choice == "1" and computers_choice == "3":
+                        print("Rock Crushes Scissors")
+                    elif users_choice == "2" and computers_choice == "1":
+                        print("Paper wraps Rock")
+                    elif users_choice == "3" and computers_choice == "2":
+                        print("Scissors Cuts Paper")
+
+                    print(game.name, "wins!")
+
+                    # score for the user
+                    game.user_scores()
+
+                else:
+                    # display the explanation for the computer
+                    if computers_choice == "1" and users_choice == "3":
+                        print("Rock Crushes Scissors")
+                    elif computers_choice == "2" and users_choice == "1":
+                        print("Paper wraps Rock")
+                    elif computers_choice == "3" and users_choice == "2":
+                        print("Scissors Cuts Paper")
+
+                    print("Computer Wins!")
+
+                    # score for the computer
+                    game.computer_scores()
+
+            current_round += 1
+        else:
+            break
+    # end while
+
+    if game.userwins == game.computerwins:
+        print("Overall Score: Tie")
+    else:
+        if game.userwins > game.computerwins:
+            print("Overall Score: User Wins!")
+        else:
+            print("Overall Score: Computer Wins!")
+            print("User wins:", game.userwins, " - Computer wins:",
+                  game.computerwins,  " - Ties: ", game.ties)
+
+
+play_game()
