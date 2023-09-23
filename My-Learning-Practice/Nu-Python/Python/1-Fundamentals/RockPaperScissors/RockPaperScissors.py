@@ -58,8 +58,8 @@ def play_game():
         if current_round < total_rounds:
             # show the round and prompt the user to enter choice
             print("Round #:" + str(current_round + 1))
-            users_choice = input(
-                game.name + ", Enter 1 [Rock], 2 [Paper], 3 [Scissors]: ")
+            users_choice = input(game.name + ", Enter 1 [Rock], 2 [Paper], 3 [Scissors]: ")
+            users_choice = int(users_choice)
             # display the result of the users choice
             if users_choice == 1:
                 print("You chose Rock")
@@ -67,7 +67,6 @@ def play_game():
                 print("You chose Paper")
             elif users_choice == 3:
                 print("You chose Scissors")
-
             # computer's choice is chosen at random
             computers_choice = random.randint(1, 3)
             print("Computers choice", computers_choice)
@@ -78,7 +77,6 @@ def play_game():
                 print("Computer chose Paper")
             elif computers_choice == 3:
                 print("Computer chose Scissors")
-
             # score the game
             if users_choice == computers_choice:
                 # tie the game
