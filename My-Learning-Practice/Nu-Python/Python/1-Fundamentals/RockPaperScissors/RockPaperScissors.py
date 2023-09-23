@@ -26,12 +26,14 @@ class GameScore(Game):
     # increase the user score
     def user_scores(self):
         self.userwins += 1
-
+        print(self.name + " Wins!")
     # increase the computer score
+
     def computer_scores(self):
         self.computerwins += 1
-
+        print("Computer Wins!")
     # increase the ties
+
     def tie_game(self):
         self.ties += 1
 
@@ -39,17 +41,13 @@ class GameScore(Game):
 # game play starts here
 def play_game():
     current_round = 0
-    total_rounds = 0
-    users_choice = ""
-    computers_choice = ""
-    rand_int = ["1", "2", "3"]
 
     name = input("Please enter your name: ")
 
     while (True):
-        rounds = input(
+        total_rounds = input(
             "Enter number of rounds to play (between 1 to 10): ")
-        total_rounds = int(rounds)
+        total_rounds = int(total_rounds)
         if total_rounds <= 10 and total_rounds > 0:
             game = GameScore(name, total_rounds)
             break
@@ -63,22 +61,22 @@ def play_game():
             users_choice = input(
                 game.name + ", Enter 1 [Rock], 2 [Paper], 3 [Scissors]: ")
             # display the result of the users choice
-            if users_choice == "1":
+            if users_choice == 1:
                 print("You chose Rock")
-            elif users_choice == "2":
+            elif users_choice == 2:
                 print("You chose Paper")
-            elif users_choice == "3":
+            elif users_choice == 3:
                 print("You chose Scissors")
 
             # computer's choice is chosen at random
-            computers_choice == random.choice(rand_int)
+            computers_choice = random.randint(1, 3)
             print("Computers choice", computers_choice)
             # display the result of the computers choice
-            if computers_choice == "1":
+            if computers_choice == 1:
                 print("Computer chose Rock")
-            elif computers_choice == "2":
+            elif computers_choice == 2:
                 print("Computer chose Paper")
-            elif computers_choice == "3":
+            elif computers_choice == 3:
                 print("Computer chose Scissors")
 
             # score the game
@@ -86,34 +84,26 @@ def play_game():
                 # tie the game
                 game.tie_game()
             else:
-                if (users_choice == "1" and computers_choice == "3") or (users_choice == "2" and computers_choice == "1") or (users_choice == "3" and computers_choice == "2"):
-                    # display the explanation for the user
-                    if users_choice == "1" and computers_choice == "3":
-                        print("Rock Crushes Scissors")
-                    elif users_choice == "2" and computers_choice == "1":
-                        print("Paper wraps Rock")
-                    elif users_choice == "3" and computers_choice == "2":
-                        print("Scissors Cuts Paper")
-
-                    print(game.name, "wins!")
-
-                    # score for the user
+                # display the explanation for the user - User scores
+                if users_choice == 1 and computers_choice == 3:
+                    print("Rock Crushes Scissors")
                     game.user_scores()
-
-                else:
-                    # display the explanation for the computer
-                    if computers_choice == "1" and users_choice == "3":
-                        print("Rock Crushes Scissors")
-                    elif computers_choice == "2" and users_choice == "1":
-                        print("Paper wraps Rock")
-                    elif computers_choice == "3" and users_choice == "2":
-                        print("Scissors Cuts Paper")
-
-                    print("Computer Wins!")
-
-                    # score for the computer
+                elif users_choice == 2 and computers_choice == 1:
+                    print("Paper wraps Rock")
+                    game.user_scores()
+                elif users_choice == 3 and computers_choice == 2:
+                    print("Scissors Cuts Paper")
+                    game.user_scores()
+                #display the computer eplanation - Computer Scores
+                elif computers_choice == 1 and users_choice == 3:
+                    print("Rock Crushes Scissors")
                     game.computer_scores()
-
+                elif computers_choice == 2 and users_choice == 1:
+                    print("Paper wraps Rock")
+                    game.computer_scores()
+                elif computers_choice == 3 and users_choice == 2:
+                    print("Scissors Cuts Paper")
+                    game.computer_scores()
             current_round += 1
         else:
             break
