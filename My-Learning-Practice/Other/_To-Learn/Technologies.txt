@@ -1,4 +1,4 @@
-365 Days of coding
+365 Days of learning
 Each day I will pick a random technology (I don't know all of these just some!) to learn from this list and start the course in Udemy. If its a technology I know, its still good for a refresher. Some of these technologies I see in job ads.
 
 PHP
