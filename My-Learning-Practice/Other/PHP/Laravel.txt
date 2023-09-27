@@ -1,0 +1,25 @@
+
+new projects
+----------------------------------------------
+composer create-project laravel/laravel my.app
+
+
+or install first
+----------------------------------------------
+composer global require laravel/installer
+ 
+laravel new example-app
+
+cd example-app
+ 
+php artisan serve
+
+
+
+-or- 
+
+Laragon start the server and extension is .test
+
+http://my.app.test
+
+C:\Laragon\www is the document root

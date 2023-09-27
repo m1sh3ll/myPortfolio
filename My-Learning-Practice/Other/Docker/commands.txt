@@ -1,0 +1,21 @@
+winpty docker exec -it pg-container psql
+
+psql
+_____
+\l
+\c db
+\dt
+\d
+\d table
+\?
+\q
+
+
+docker compose up -d (initiate new blank)
+docker compose ls
+docker exec pg-container psql 'cmd'
+docker compose down (resets it)
+docker compose logs
+
+docker compose start
+docker compose stop

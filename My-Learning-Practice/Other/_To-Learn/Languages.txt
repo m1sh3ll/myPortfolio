@@ -1,0 +1,87 @@
+365 Days of coding
+Each day I will pick a random technology (I don't know all of these just some!) to learn from this list and start the course in Udemy. If its a technology I know, its still good for a refresher. Some of these technologies I see in job ads.
+
+PHP
+graphQL
+Webflow
+FastAPI
+Shopify Development
+Kotlin
+Java
+C++
+Laravel
+WordPress Development
+Drupal Development
+MEAN Stack
+MERN Stack
+LAMP Stack
+Python
+Docker
+Apache/IIS/Nginx
+MySQL/PostGres/MongoDB/SQLite/SQL Server
+HTML/CSS
+Javascript
+JQuery
+Bootstrap/Bootswatch
+Android
+Angular
+C#
+C# with Database
+ASP.net (EF Core)
+ASP.net Blazor
+ASP.net MVC
+Dot NET Maui
+Git
+Dart
+Rust
+Go (GoLang)
+Document Object Model (DOM)
+JSON
+XML
+Gulp
+SASS
+LESS
+TailWind
+Stylus
+React
+React Native
+Django 
+Flask
+Vue
+Flutter
+C
+IOS/Swift
+Kubernetes
+Azure/AWS/Google Cloud
+Editors: Android Studio/XCode/VSCode/IntelliJ/VS 2019/2022
+AJAX
+FireBase
+TypeScript
+Node.JS
+Spring Boot
+Web API
+MicroServices
+Selenium
+Automation
+Machine Learning
+Ruby
+Redux
+Next.Js
+Joomla
+Magento
+Amazon Coretto (Open JDK)
+Sharepoint
+Salesforce
+R
+F#
+Shell Scripting (BASH)
+Powershell
+Perl
+Objective C
+Jupyter Notebook
+Mobile App Development
+Gaming App Development
+Vite (React)
+
+
+

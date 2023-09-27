@@ -1,0 +1,9 @@
+psql
+_____
+\l
+\c db
+\dt
+\d
+\d table
+\?
+\q

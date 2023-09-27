@@ -1,0 +1,4 @@
+ng new myapp
+mg g c pagenotfoundcomponent
+ng server 
+ (http://localhost:4200)
