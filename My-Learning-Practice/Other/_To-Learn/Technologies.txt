@@ -1,87 +1,87 @@
 365 Days of learning
 Each day I will pick a random technology (I don't know all of these just some!) to learn from this list and start the course in Udemy. If its a technology I know, its still good for a refresher. Some of these technologies I see in job ads.
 
-PHP
-graphQL
-Webflow
-FastAPI
-Shopify Development
-Kotlin
-Java
-C++
-Laravel
-WordPress Development
-Drupal Development
-MEAN Stack
-MERN Stack
-LAMP Stack
-Python
-Docker
-Apache/IIS/Nginx
-MySQL/PostGres/MongoDB/SQLite/SQL Server
-HTML/CSS
-Javascript
-JQuery
-Bootstrap/Bootswatch
-Android
-Angular
-C#
-C# with Database
+AJAX
 ASP.net (EF Core)
 ASP.net Blazor
 ASP.net MVC
-Dot NET Maui
-Git
+Amazon Coretto (Open JDK)
+Android
+Angular
+Apache/IIS/Nginx
+Automation
+Azure/AWS/Google Cloud
+Bootstrap/Bootswatch
+C
+C#
+C# with Database
+C++
 Dart
-Rust
-Go (GoLang)
+Django
+Docker
 Document Object Model (DOM)
-JSON
-XML
+Dot NET Maui
+Drupal Development
+Editors: Android Studio/XCode/VSCode/IntelliJ/VS 2019/2022
+F#
+FastAPI
+FireBase
+Flask
+Flutter
+Gaming App Development
+Git
+Go (GoLang)
 Gulp
-SASS
+HTML/CSS
+IOS/Swift
+JQuery
+JSON
+Java
+Javascript
+Joomla
+Jupyter Notebook
+Kotlin
+Kubernetes
+LAMP Stack
 LESS
-TailWind
-Stylus
+Laravel
+MEAN Stack
+MERN Stack
+Machine Learning
+Magento
+MicroServices
+Mobile App Development
+MySQL/PostGres/MongoDB/SQLite/SQL Server
+Next.Js
+Node.JS
+Objective C
+PHP
+Perl
+Powershell
+Python
+R
 React
 React Native
-Django 
-Flask
-Vue
-Flutter
-C
-IOS/Swift
-Kubernetes
-Azure/AWS/Google Cloud
-Editors: Android Studio/XCode/VSCode/IntelliJ/VS 2019/2022
-AJAX
-FireBase
-TypeScript
-Node.JS
-Spring Boot
-Web API
-MicroServices
-Selenium
-Automation
-Machine Learning
-Ruby
 Redux
-Next.Js
-Joomla
-Magento
-Amazon Coretto (Open JDK)
-Sharepoint
+Ruby
+Rust
+SASS
 Salesforce
-R
-F#
+Selenium
+Sharepoint
 Shell Scripting (BASH)
-Powershell
-Perl
-Objective C
-Jupyter Notebook
-Mobile App Development
-Gaming App Development
+Shopify Development
+Spring Boot
+Stylus
+TailWind
+TypeScript
 Vite (React)
+Vue
+Web API
+Webflow
+WordPress Development
+XML
+graphQL
 
 
 
