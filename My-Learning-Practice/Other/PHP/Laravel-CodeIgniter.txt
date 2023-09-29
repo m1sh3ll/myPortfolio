@@ -1,0 +1,74 @@
+
+LARAVEL-------------------------------------------------
+
+new projects
+----------------------------------------------
+composer create-project laravel/laravel my.app
+
+
+or install first
+----------------------------------------------
+composer global require laravel/installer
+ 
+laravel new example-app
+
+cd example-app
+ 
+php artisan serve
+
+
+
+-or- 
+
+Laragon start the server and extension is .test
+
+http://my.app.test
+
+C:\Laragon\www is the document root
+
+
+
+
+
+CODEIGNITER----------------------------------------------
+
+composer create-project codeigniter4/appstarter project-root
+
+cd project-root
+
+composer update (if it says to update it such as if you got this repo from git and you need to install all its packages)
+
+php spark serve
+
+
+
+My stack
+Laragon using PHPMySql PHP Training VM
+
+CODEIGNITER files from github----------------------------------
+
+1. Create a new blank project such as 
+
+2. composer create-project codeigniter4/appstarter project-root
+
+3. cd project-root
+
+4. Composer Update
+
+5. copy and paste the project into yours (except for the spark file)
+
+on migration you may get errors follow 
+https://www.codeigniter.com/user_guide/installation/upgrade_430.html#mandatory-file-changes (under app/Config/Kint.php)
+
+5. Config Files
+----------------------------------
+in  app/Config/Kint.php
+
+You need to replace:
+
+Kint\Renderer\Renderer with
+Kint\Renderer\AbstractRenderer
+
+Renderer::SORT_FULL with 
+AbstractRenderer::SORT_FULL
+
