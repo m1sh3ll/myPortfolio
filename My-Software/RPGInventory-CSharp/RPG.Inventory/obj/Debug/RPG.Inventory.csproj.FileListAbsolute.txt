@@ -1,6 +1,0 @@
-E:\PROJECTS\old-school\SWGUILD\RPGInventory\RPG.Inventory\bin\Debug\RPG.Inventory.dll
-E:\PROJECTS\old-school\SWGUILD\RPGInventory\RPG.Inventory\bin\Debug\RPG.Inventory.pdb
-E:\PROJECTS\old-school\SWGUILD\RPGInventory\RPG.Inventory\obj\Debug\RPG.Inventory.csproj.AssemblyReference.cache
-E:\PROJECTS\old-school\SWGUILD\RPGInventory\RPG.Inventory\obj\Debug\RPG.Inventory.csproj.CoreCompileInputs.cache
-E:\PROJECTS\old-school\SWGUILD\RPGInventory\RPG.Inventory\obj\Debug\RPG.Inventory.dll
-E:\PROJECTS\old-school\SWGUILD\RPGInventory\RPG.Inventory\obj\Debug\RPG.Inventory.pdb

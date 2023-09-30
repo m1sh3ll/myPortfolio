@@ -1,0 +1,9 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Michelle Nesbitt,NY,8.25,Carpet,100.00,2.00,4.00,200.00,400.00,49.50,649.50
+2,m,PA,6.75,Carpet,100,2.25,2.10,225.00,210.00,29.362500,464.362500
+3,Stewart Jones,PA,6.75,Tile,100,3.50,4.15,350.00,415.00,51.637500,816.637500
+4,Stewart James,PA,6.75,Tile,100,3.50,4.15,350.00,415.00,51.637500,816.637500
+5,Stewart John,PA,6.75,Tile,100,3.50,4.15,350.00,415.00,51.637500,816.637500
+6,Stewart Jones,PA,6.75,Tile,100,3.50,4.15,350.00,415.00,51.637500,816.637500
+7,Stewart James,PA,6.75,Tile,100,3.50,4.15,350.00,415.00,51.637500,816.637500
+8,Stewart John,PA,6.75,Tile,100,3.50,4.15,350.00,415.00,51.637500,816.637500

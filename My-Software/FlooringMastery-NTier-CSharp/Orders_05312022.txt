@@ -1,3 +1,0 @@
-OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
-1,Phil,OH,6.25,Wood,500,5.15,4.75,2375.00,2575.00,309.375000,5259.375000
-2,MM,OH,6.25,Wood,400,5.15,4.75,1900.00,2060.00,247.500000,4207.500000

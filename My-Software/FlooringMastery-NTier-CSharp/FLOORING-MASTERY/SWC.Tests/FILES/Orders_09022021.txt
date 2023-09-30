@@ -1,8 +1,0 @@
-OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
-1,Steve Nesbitt,NY,8.25,Carpet,100.00,2.00,4.00,200.00,400.00,49.50,649.50
-2,Stewart Jones,OH,6.25,Laminate,100,1.75,2.10,175.00,210.00,24.062500,409.062500
-3,Stewart James,OH,6.25,Laminate,100,1.75,2.10,175.00,210.00,24.062500,409.062500
-4,Stewart John,OH,6.25,Laminate,100,1.75,2.10,175.00,210.00,24.062500,409.062500
-5,Stewart Jones,OH,6.25,Laminate,100,1.75,2.10,175.00,210.00,24.062500,409.062500
-6,Stewart James,OH,6.25,Laminate,100,1.75,2.10,175.00,210.00,24.062500,409.062500
-7,Stewart John,OH,6.25,Laminate,100,1.75,2.10,175.00,210.00,24.062500,409.062500

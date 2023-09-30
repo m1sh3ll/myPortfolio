@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC4555E3-E633-44FB-83E9-6C114B25BC3E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Plans</RootNamespace>
+    <AssemblyName>Plans</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\SGBank.BLL.csproj.CopyComplete" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\SGBank.BLL.csproj.CoreCompileInputs.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\SGBank.BLL.csprojAssemblyReference.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Release\SGBank.BLL.csprojAssemblyReference.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\packages.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\SGBank.BLL.csproj" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\SGBank.Data.csproj.CopyComplete" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\SGBank.Data.csproj.CoreCompileInputs.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\SGBank.Data.csprojAssemblyReference.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\packages.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\SGBank.Data.csproj" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\SGBank.Models.csproj.CopyComplete" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\SGBank.Models.csproj.CoreCompileInputs.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\SGBank.Models.csprojAssemblyReference.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\packages.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\SGBank.Models.csproj" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\App.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\nunit_random_seed.tmp" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.Tests.dll.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\SGBank.Tests.csproj.CopyComplete" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\SGBank.Tests.csproj.CoreCompileInputs.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\SGBank.Tests.csprojAssemblyReference.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\packages.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\SGBank.Tests.csproj" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\App.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.UI.application" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.UI.exe.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.UI.exe.manifest" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.application" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.csproj.CopyComplete" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.csproj.CoreCompileInputs.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.csprojAssemblyReference.cache" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.exe.manifest" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\packages.config" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\SGBank.UI.csproj" />
+    <None Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\SGBank.UI_TemporaryKey.pfx" />
+    <None Include="_SWC-OUTLINE-FINAL\SWC-TESTS\APP.config" />
+    <None Include="_SWC-OUTLINE-FINAL\SWC-UI\APP.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\AccountManager.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\AccountManagerFactory.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\DepositRules\DepositRulesFactory.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\DepositRules\FreeAccountDepositRule.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\DepositRules\NoLimitDepositRule.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\Properties\AssemblyInfo.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\WithdrawRules\BasicAccountWithdrawRule.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\WithdrawRules\FreeAccountWithdrawRule.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\WithdrawRules\PremiumAccountWithdrawRule.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\WithdrawRules\WithdrawRulesFactory.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\FileAccountRepository.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\FreeAccountTestRepository.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\Properties\AssemblyInfo.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Account.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\AccountType.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Interfaces\IAccountRepository.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Interfaces\IDeposit.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Interfaces\IWithdraw.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Properties\AssemblyInfo.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Responses\AccountDepositResponse.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Responses\AccountLookupResponse.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Responses\AccountWithdrawResponse.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\Responses\Response.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\BasicAccountTests.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\FreeAccountTests.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\PremumAccountTests.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\Properties\AssemblyInfo.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\ConsoleIO.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\Menu.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\Program.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\Properties\AssemblyInfo.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\Workflows\AccountLookupWorkflow.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\Workflows\DepositWorkflow.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\Workflows\WithdrawWorkflow.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-BLL\AddEditDeleteRules\ADDRULE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-BLL\AddEditDeleteRules\ADD_EDIT_DELETE_RULEFACTORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-BLL\AddEditDeleteRules\DELETERULE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-BLL\AddEditDeleteRules\EDITRULE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-BLL\ORDERMANAGER.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-BLL\ORDERMANAGERFACTORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-DATA\ORDERREPOSITORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-DATA\ORDERTESTREPOSITORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-DATA\PRODUCTREPOSITORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-DATA\PRODUCTTESTREPOSITORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-DATA\TAXREPOSITORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-DATA\TAXTESTREPOSITORY.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\INTERFACES\IOrderRepository.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\INTERFACES\IProductRepository.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\INTERFACES\ITaxRepository.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\Order.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\Product.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\RESPONSES\CREATERESPONSE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\RESPONSES\DISPLAYorderRESPONSE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\RESPONSES\REMOVERESPONSE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\RESPONSES\RESPONSE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\RESPONSES\UPDATERESPONSE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\RESPONSES\xDISPLAYPRODUCTRESPONSE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\RESPONSES\xDISPLAYTAXRESPONSE.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-MODELS\Tax.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-TESTS\ORDERTESTS.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-UI\CONSOLEIO.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-UI\MENU.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-UI\PROGRAM.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-UI\Workflows\ADDWORKFLOW.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-UI\Workflows\DELETEWORKFLOW.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-UI\Workflows\EDITWORKFLOW.cs" />
+    <Compile Include="_SWC-OUTLINE-FINAL\SWC-UI\Workflows\ORDERSEARCHWORKFLOW.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\nunit.framework.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\nunit.framework.xml" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\SGBank.BLL.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\SGBank.BLL.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\SGBank.Data.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\SGBank.Data.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\SGBank.Models.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Debug\SGBank.Models.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\SGBank.BLL.csproj.FileListAbsolute.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\SGBank.BLL.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\SGBank.BLL.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\bin\Debug\nunit.framework.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\bin\Debug\nunit.framework.xml" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\bin\Debug\SGBank.Data.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\bin\Debug\SGBank.Data.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\bin\Debug\SGBank.Models.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\bin\Debug\SGBank.Models.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\SGBank.Data.csproj.FileListAbsolute.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\SGBank.Data.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\SGBank.Data.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\bin\Debug\nunit.framework.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\bin\Debug\nunit.framework.xml" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\bin\Debug\SGBank.Models.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\bin\Debug\SGBank.Models.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\SGBank.Models.csproj.FileListAbsolute.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\SGBank.Models.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\SGBank.Models.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\nunit.framework.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\nunit.framework.xml" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.BLL.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.BLL.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.Data.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.Data.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.Models.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.Models.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.Tests.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Debug\SGBank.Tests.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\SGBank.Tests.csproj.FileListAbsolute.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\SGBank.Tests.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\SGBank.Tests.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\app.publish\SGBank.UI.exe" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\nunit.framework.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\nunit.framework.xml" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.BLL.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.BLL.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.Data.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.Data.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.Models.dll" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.Models.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.UI.exe" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Debug\SGBank.UI.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\FILES\Accounts.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.csproj.FileListAbsolute.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.exe" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\SGBank.UI.pdb" />
+    <Content Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\SGBank.UI.csproj.user" />
+    <Content Include="_SWC-OUTLINE-FINAL\FILES-BACKUP\Orders_06012013.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\FILES-BACKUP\Products.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\FILES-BACKUP\Taxes.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\SWC-UI\FILES\Orders.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\SWC-UI\FILES\Orders_06012013.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\SWC-UI\FILES\Products.txt" />
+    <Content Include="_SWC-OUTLINE-FINAL\SWC-UI\FILES\Taxes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\bin\Release\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.BLL\obj\Debug\TempPE\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\bin\Release\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Data\obj\Debug\TempPE\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\bin\Release\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Models\obj\Debug\TempPE\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\bin\Release\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.Tests\obj\Debug\TempPE\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\bin\Release\" />
+    <Folder Include="_SWC-OUTLINE-FINAL\sgbank----------------------final\SGBank.UI\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

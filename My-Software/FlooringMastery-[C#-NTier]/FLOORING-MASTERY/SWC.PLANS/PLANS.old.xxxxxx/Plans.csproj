@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC4555E3-E633-44FB-83E9-6C114B25BC3E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Plans</RootNamespace>
+    <AssemblyName>Plans</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="SWC-TESTS\APP.config" />
+    <None Include="SWC-UI\APP.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SWC-BLL\AddEditDeleteRules\ADDRULE.cs" />
+    <Compile Include="SWC-BLL\AddEditDeleteRules\ADD_EDIT_DELETE_RULEFACTORY.cs" />
+    <Compile Include="SWC-BLL\AddEditDeleteRules\DELETERULE.cs" />
+    <Compile Include="SWC-BLL\AddEditDeleteRules\EDITRULE.cs" />
+    <Compile Include="SWC-BLL\ORDERMANAGER.cs" />
+    <Compile Include="SWC-BLL\ORDERMANAGERFACTORY.cs" />
+    <Compile Include="SWC-DATA\ORDERREPOSITORY.cs" />
+    <Compile Include="SWC-DATA\ORDERTESTREPOSITORY.cs" />
+    <Compile Include="SWC-DATA\PRODUCTREPOSITORY.cs" />
+    <Compile Include="SWC-DATA\PRODUCTTESTREPOSITORY.cs" />
+    <Compile Include="SWC-DATA\TAXREPOSITORY.cs" />
+    <Compile Include="SWC-DATA\TAXTESTREPOSITORY.cs" />
+    <Compile Include="SWC-MODELS\INTERFACES\IOrderRepository.cs" />
+    <Compile Include="SWC-MODELS\INTERFACES\IProductRepository.cs" />
+    <Compile Include="SWC-MODELS\INTERFACES\ITaxRepository.cs" />
+    <Compile Include="SWC-MODELS\Order.cs" />
+    <Compile Include="SWC-MODELS\Product.cs" />
+    <Compile Include="SWC-MODELS\ProductType.cs" />
+    <Compile Include="SWC-MODELS\RESPONSES\CREATERESPONSE.cs" />
+    <Compile Include="SWC-MODELS\RESPONSES\DISPLAYorderRESPONSE.cs" />
+    <Compile Include="SWC-MODELS\RESPONSES\REMOVERESPONSE.cs" />
+    <Compile Include="SWC-MODELS\RESPONSES\RESPONSE.cs" />
+    <Compile Include="SWC-MODELS\RESPONSES\UPDATERESPONSE.cs" />
+    <Compile Include="SWC-MODELS\RESPONSES\xDISPLAYPRODUCTRESPONSE.cs" />
+    <Compile Include="SWC-MODELS\RESPONSES\xDISPLAYTAXRESPONSE.cs" />
+    <Compile Include="SWC-MODELS\Tax.cs" />
+    <Compile Include="SWC-TESTS\ORDERTESTS.cs" />
+    <Compile Include="SWC-UI\CONSOLEIO.cs" />
+    <Compile Include="SWC-UI\MENU.cs" />
+    <Compile Include="SWC-UI\PROGRAM.cs" />
+    <Compile Include="SWC-UI\Workflows\ADDWORKFLOW.cs" />
+    <Compile Include="SWC-UI\Workflows\DELETEWORKFLOW.cs" />
+    <Compile Include="SWC-UI\Workflows\EDITWORKFLOW.cs" />
+    <Compile Include="SWC-UI\Workflows\ORDERSEARCHWORKFLOW.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FILES-BACKUP\Orders_06012013.txt" />
+    <Content Include="FILES-BACKUP\Products.txt" />
+    <Content Include="FILES-BACKUP\Taxes.txt" />
+    <Content Include="SWC-UI\FILES\Orders.txt" />
+    <Content Include="SWC-UI\FILES\Orders_06012013.txt" />
+    <Content Include="SWC-UI\FILES\Products.txt" />
+    <Content Include="SWC-UI\FILES\Taxes.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

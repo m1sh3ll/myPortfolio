@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;    
+    margin: 0px;
+    padding: 0px;   
+    border: 0px; 
+    /* vertical-align: baseline; */
+}
+body {  
+    font-size: 12px;
+    color: white;  
+}
+.logo, .cart {
+    opacity: 0.9;
+}
+.container { /* --[header]+[nav]+[main]+[footer] -----*/
+    display: grid; 
+    grid-template-columns: 4;    
+        
+}
+
+header, nav, main, footer {    
+    grid-column: 1/5; 
+    
+}
+
+header, nav, footer, #section0-title, #section0-action, #section1, #section2 {
+  border-radius: 5px; 
+}
+/* ---------------------------Header---------------------------- */
+ header  {
+    background-color: navy; 
+    margin-top:1px;
+} 
+#section0-title, #section0-action, #section1, #section2 {
+    margin-top:2px;
+}
+
+#logo_n_cart {
+    display: flex;                              
+    padding: 15px;
+    flex-direction:row;  
+}
+#cart{
+    margin-left:100px;
+}
+/* ---------------------------Footer---------------------------- */
+footer {
+    background-color: rgba(235, 236, 238, 0.8);
+    padding: 15px;
+    
+} 
+/* ----------------------------Nav------------------------------ */
+nav {
+    font-weight: bolder;
+    background-color: green; 
+    color: white; 
+    position:sticky;  
+    margin-top:2px;
+}
+#navlist {                          /* Navigation links */
+    margin: 10px 0px 10px 10px;
+}
+#navlist >li > a {
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navlist > li > a:visited {
+    color:white;
+}
+#navlist > li {
+    display: inline; /* displays li left to right */
+    padding: 5px;
+    
+} 
+
+/* ----------------------End top-level items-------- */
+.green {
+    color: #00d563;
+    font-weight:bolder;
+}
+
+/* ----------------------Headers / Titles-------- */
+
+#section0-title {                           /* title */
+    background-color: black;  /* make it darker image */  
+    overflow: visible;   
+    text-align: center;
+    font-family: "Helvetica","Arial",sans-serif;
+    font-weight: bold;    
+    margin: 0px;
+    padding: 0px;   
+    border: 0px; 
+    margin-top: 1px;   
+}
+#section0-title > img {    
+    opacity: 0.5;   
+    overflow: visible;    
+    width: 100%;  
+    margin: 0px;
+    padding: 0px;   
+    border: 0px; 
+    border-radius: 5px;
+
+}
+#section0-title > h1 {
+    position: absolute;  
+    margin: 0px;
+    padding: 0px;
+    border: 0px;   
+    overflow: hidden;
+    color:white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);     
+}
+
+#section0-action {                          /*  title */
+    text-align: center;
+    background-color:rgba(235, 236, 238, 0.8);     
+}
+#section0, #section1, #section2, #section3 {    
+    font-size: 14px;
+    text-align: center;
+    padding: 12px;
+}
+#section0, #section2 {background-color:rgba(235, 236, 238, 0.8);  
+}
+
+/* --------------------------Section1---------------- */
+
+
+/* -------------------Section-2------------------ */
+
+#list1 > li {
+    list-style-type: none;    
+    font-weight: lighter;
+    text-align: center;   
+ }
+
+ #list1 {                           /* the whole ul */
+    text-align: left;
+    font-weight: bolder;
+ }
+.btn {
+    margin: 2px;
+}
+
+.appstore {
+    width: 137px;
+}
+th {font-weight:bold;
+    font-family: "PT Mono", monospace;
+}
+table {
+    text-align: left;
+    width: 100%;
+}
+/*~ Mobile: 360 x 720 - not needed*/
+/*~ Tablet: 768 x 1024 */
+@media screen and (min-height: 811px) {
+    
+    #section0-title > h1 {
+    top: 30%;
+    left: 50%;
+}    
+    
+}
+
+/*~ Tablet: 768 x 1024 */
+@media screen and (min-width: 768px) {
+    
+    .prodimage {
+        height: 50px;
+        }
+    body {
+        font-size: larger;
+    }
+    footer {
+        font-size:12px;
+    }
+    
+}
+/*~ Laptop: 1366 x */
+@media screen and (min-width: 1366px) {
+   
+    .prodimage {
+        height: 75px;
+    }   
+    body {
+        font-size: larger;
+    }
+    footer {
+        font-size:14px;
+    }
+}
+/*~ Laptop: 1920x */
+@media screen and (min-width: 1920px) {
+    
+    .prodimage {
+        height: 100px;
+    }    
+    body {
+        font-size: larger;
+    }
+    footer {
+        font-size:16px;
+    }
+    
+}
+
+.prodimage {
+    height:50px;
+}
+
+.price {
+    color: red;
+    font-size: 14px;
+    text-align: right;
+}
+/* ----------------------------Font-Awesome------------------ */
+.fa {    
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+    padding: 4px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-official {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter-square {
+    background: #55acee;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest-square {
+    background: #cb2027;
+    color: white;
+}
+/* End Font-Awesome */

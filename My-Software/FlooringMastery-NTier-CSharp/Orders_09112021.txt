@@ -1,4 +1,0 @@
-OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
-1,d,PA,6.75,Tile,200,3.50,4.15,830.00,700.00,103.275000,1633.275000
-2,mn,PA,6.75,Tile,100,3.50,4.15,415.00,350.00,51.637500,816.637500
-3,mn,PA,6.75,Tile,1000,3.50,4.15,4150.00,3500.00,516.375000,8166.375000

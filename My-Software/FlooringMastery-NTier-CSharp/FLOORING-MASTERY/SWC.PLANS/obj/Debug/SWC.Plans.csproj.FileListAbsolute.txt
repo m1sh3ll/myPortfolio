@@ -1,3 +1,0 @@
-E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\FLOORING-MASTERY-FINAL\FLOORING-MASTERY\SWC.PLANS\obj\Debug\SWC.Plans.csproj.AssemblyReference.cache
-E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\FLOORING-MASTERY-FINAL\FLOORING-MASTERY\SWC.PLANS\obj\Debug\SWC.Plans.csproj.SuggestedBindingRedirects.cache
-E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\FLOORING-MASTERY-FINAL\FLOORING-MASTERY\SWC.PLANS\obj\Debug\SWC.Plans.csproj.CoreCompileInputs.cache

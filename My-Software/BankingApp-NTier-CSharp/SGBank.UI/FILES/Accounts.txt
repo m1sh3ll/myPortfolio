@@ -1,5 +1,0 @@
-AccountNumber,Name,Balance,Type
-11111,Free Michelle,100,F
-12345,Free Michelle,100,F
-33333,Basic Michelle,500,B
-55555,Premium Michelle,1000,P

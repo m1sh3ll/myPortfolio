@@ -1,0 +1,8 @@
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\bin\Debug\Customers.xml
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\bin\Debug\LINQ.exe.config
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\bin\Debug\LINQ.exe
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\bin\Debug\LINQ.pdb
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\obj\Debug\LINQ.exe
+E:\Dropbox\X_______old-n--STUFF\SWGUILD----old\LINQ--Exercises\LINQ\obj\Debug\LINQ.pdb

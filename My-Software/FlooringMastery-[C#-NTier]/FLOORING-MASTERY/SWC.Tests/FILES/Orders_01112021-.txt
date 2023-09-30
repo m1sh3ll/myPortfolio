@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Martha,NY,0,Wood,100,5.15,4.75,515.00,475.00,0.00,990.00
+2,Martha,NY,0,Wood,100,5.15,4.75,515.00,475.00,0.00,990.00
+3,Martha,NY,0,Wood,100,5.15,4.75,515.00,475.00,0.00,990.00
+4,Martha,NY,0,Wood,100,5.15,4.75,515.00,475.00,0.00,990.00

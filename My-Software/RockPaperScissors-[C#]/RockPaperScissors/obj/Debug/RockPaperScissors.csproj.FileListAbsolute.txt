@@ -1,0 +1,8 @@
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.AssemblyReference.cache
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.SuggestedBindingRedirects.cache
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+E:\PROJECTS\old-school\SWGUILD\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb

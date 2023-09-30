@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 12px;
+  color: white;
+}
+
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 101%;
+}
+
+hr {
+  width: 95%;
+  align-items: center;
+}
+
+form {
+  padding: 15px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+input {
+  padding: 12px;
+  margin: 12px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: lightgray;
+}
+
+nav {
+  overflow: hidden;
+  width: 100%;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+/*~ Tablet: 768 x 1024 */
+@media screen and (min-width: 768px) {
+  main {
+    font-size: larger;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
+/*~ Laptop: 1366 x */
+@media screen and (min-width: 1366px) {
+  main {
+    font-size: larger;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+  }
+}
+/*~ Laptop: 1920x */
+@media screen and (min-width: 1920px) {
+  main {
+    font-size: 14px;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+  }
+}

@@ -1,9 +1,0 @@
-
- USER	COMPUTER
-------------------------------------
-ROCK < PAPER
-ROCK > SCISSORS
-PAPER > ROCK
-PAPER < SCISSORS
-SCISSORS < ROCK
-SCISSORS > PAPER

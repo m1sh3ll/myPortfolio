@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,mn,PA,6.75,Wood,100,5.15,4.75,515.00,475.00,66.825000,1056.825000
+2,mn,PA,6.75,Carpet,100,2.25,2.10,225.00,210.00,29.362500,464.362500
