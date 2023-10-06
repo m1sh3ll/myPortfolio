@@ -1,11 +1,4 @@
-/*============================================
-; Title: WWW
-; Author: 
-; Date: 25 July 2020
-; Modified By: Michelle Nesbitt
-; Description: Demonstrates APIs
-==============================================
-*/
+
 var app = require('../app');
 var debug = require('debug')('api-gateway:server');
 var http = require('http');
