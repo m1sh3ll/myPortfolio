@@ -7,3 +7,5 @@ _____
 \d table
 \?
 \q
+
+http://localhost:5433
