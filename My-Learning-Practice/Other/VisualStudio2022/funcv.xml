@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Void Function Snippet</Title>
+      <Shortcut>funcv</Shortcut>
+      <Description>Define a void function</Description>
+      <Author>Michelle Nesbitt</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp"><![CDATA[public void $FunctionName$()
+{
+    // Your code here
+}]]>
+</Code>
+      <Declarations>
+        <Literal>
+          <ID>FunctionName</ID>
+          <ToolTip>Enter the name of the function</ToolTip>
+          <Default>MyFunction</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
