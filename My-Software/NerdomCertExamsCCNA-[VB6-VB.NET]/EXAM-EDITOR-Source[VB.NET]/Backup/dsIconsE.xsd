@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsIconsE" targetNamespace="http://www.tempuri.org/dsIconsE.xsd" xmlns:mstns="http://www.tempuri.org/dsIconsE.xsd" xmlns="http://www.tempuri.org/dsIconsE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsIconsE" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="t1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:short" />
+              <xs:element name="ICTITLE" type="xs:string" minOccurs="0" />
+              <xs:element name="IconMouse" type="xs:string" minOccurs="0" />
+              <xs:element name="fldSubFolder" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxLbox" type="xs:string" minOccurs="0" />
+              <xs:element name="MTYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="TopicBut1" type="xs:string" minOccurs="0" />
+              <xs:element name="TopicBut2" type="xs:string" minOccurs="0" />
+              <xs:element name="TopicBut3" type="xs:string" minOccurs="0" />
+              <xs:element name="TopicBut4" type="xs:string" minOccurs="0" />
+              <xs:element name="TopicBut5" type="xs:string" minOccurs="0" />
+              <xs:element name="TopicButAll" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:t1" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

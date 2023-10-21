@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QUEENEDIT2004
+</name>
+</assembly>
+<members>
+<member name="T:QUEENEDIT2004.dsExam">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsExam.Q1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsExam.Q1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsExam.Q1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsFlash">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsFlash.Q1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsFlash.Q1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsFlash.Q1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsIconsE">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsIconsE.t1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsIconsE.t1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsIconsE.t1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsLabs">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsLabs.Q1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsLabs.Q1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:QUEENEDIT2004.dsLabs.Q1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

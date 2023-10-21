@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsExam" targetNamespace="http://www.tempuri.org/dsExam.xsd" xmlns:mstns="http://www.tempuri.org/dsExam.xsd" xmlns="http://www.tempuri.org/dsExam.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsExam" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Q1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QID" type="xs:short" />
+              <xs:element name="Ques" type="xs:string" minOccurs="0" />
+              <xs:element name="Ans2" type="xs:short" minOccurs="0" />
+              <xs:element name="Ans1" type="xs:short" minOccurs="0" />
+              <xs:element name="Ans3" type="xs:short" minOccurs="0" />
+              <xs:element name="Ans4" type="xs:short" minOccurs="0" />
+              <xs:element name="Ans5" type="xs:short" minOccurs="0" />
+              <xs:element name="Ans6" type="xs:short" minOccurs="0" />
+              <xs:element name="Ans7" type="xs:short" minOccurs="0" />
+              <xs:element name="AnsA" type="xs:string" minOccurs="0" />
+              <xs:element name="AnsB" type="xs:string" minOccurs="0" />
+              <xs:element name="AnsC" type="xs:string" minOccurs="0" />
+              <xs:element name="AnsD" type="xs:string" minOccurs="0" />
+              <xs:element name="AnsE" type="xs:string" minOccurs="0" />
+              <xs:element name="AnsF" type="xs:string" minOccurs="0" />
+              <xs:element name="AnsG" type="xs:string" minOccurs="0" />
+              <xs:element name="Answer" type="xs:string" minOccurs="0" />
+              <xs:element name="chkoropt" type="xs:string" minOccurs="0" />
+              <xs:element name="Exhibit" type="xs:string" minOccurs="0" />
+              <xs:element name="ExhibitName" type="xs:string" minOccurs="0" />
+              <xs:element name="Explanation" type="xs:string" minOccurs="0" />
+              <xs:element name="InputAnswer" type="xs:string" minOccurs="0" />
+              <xs:element name="InputAnswer2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Q1" />
+      <xs:field xpath="mstns:QID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

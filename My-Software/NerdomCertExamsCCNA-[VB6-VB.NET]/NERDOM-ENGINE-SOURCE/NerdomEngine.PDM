@@ -1,0 +1,134 @@
+[Root]
+Most Recent Package=Nerdom 6
+
+
+[Package|Nerdom 6|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Package
+
+[Package|Nerdom 6|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Nerdom 6|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Nerdom 6|Files Found]
+site.exe=I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\NavSite\site.exe
+
+[Package|Nerdom 6|Files Released]
+
+[Package|Nerdom 6|Missing Dependency Information]
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\site.exe=
+
+[Package|Nerdom 6|Out-of-Date Dependency Information]
+
+[Package|Nerdom 6|Files Added]
+site.exe=
+
+[Package|Nerdom 6|Files Removed]
+
+[Package|Nerdom 6|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MBScroll.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Nerdom6Eng.exe=Yes
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\NavSite\site.exe=Yes
+
+[Package|Nerdom 6|Configure Registry Files]
+Applicable=No
+
+[Package|Nerdom 6|Configure Remote Servers]
+Applicable=No
+
+[Package|Nerdom 6|Install Locations]
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Nerdom5Eng.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MBScroll.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\site.exe=$(AppPath)
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Nerdom6Eng.exe=$(AppPath)
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\NavSite\site.exe=$(AppPath)
+
+[Package|Nerdom 6|Configure Shared Files]
+Applicable=Yes
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Nerdom5Eng.exe=No
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\site.exe=No
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Nerdom6Eng.exe=No
+I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\NavSite\site.exe=No
+
+[Package|Nerdom 6|Distribution]
+Type=single
+Size=
+Title=Nerdom Cert Exams 6 Engine
+
+[Package|Nerdom 6|IconGroups]
+Group0=Nerdom Software
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Nerdom 6|Nerdom Software]
+Icon1=site.exe
+Title1=Order Now
+StartIn1=$(AppPath)
+Key1=Icon7
+
+[Package|Nerdom 6|Package]
+PackageFolder=I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Package
+ProjectFolder=I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE
+ServerSideCab=
+File1=I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Package\setup.exe
+File2=I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Package\Setup.Lst
+File3=I:\NERDOMSOFTWARE 2005\NERDOM-ENGINE-SOURCE\Package\Nerdom6Eng.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
