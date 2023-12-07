@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MyInventory.Models.Product>
+
+@{
+  ViewData["Title"] = "Admin";
+}
+
+<h1>My Inventory of Products Database</h1>
+
+<p>
+  <a asp-action="Create">Create New</a>
+</p>
+
+
+<div>
+@foreach (var item in from i in Model.Select((value, index) => new { value, index }) group i.value by i.index / 3 into g select g)
+    {
+    <div class="container-fluid">
+      <div class="row">
+
+        @foreach (var x in item)
+        {
+          <div class="col-xs-4 col-sm-4 col-md-4 indexColumn">
+            <div class="thumbnail">
+              <a class="nolinelink" asp-action="Details" asp-route-id="@x.Id"><h4>@x.Title</h4></a>
+              <a asp-action="Details" asp-route-id="@x.Id"><img class="indexProducts" src="@x.ImageURL"></a>
+              <h4>$@x.Price</h4>
+              <a asp-action="Edit" asp-route-id="@x.Id">Edit</a> |
+              <a asp-action="Details" asp-route-id="@x.Id">Details</a> |
+              <a asp-action="Delete" asp-route-id="@x.Id">Delete</a>
+            </div>
+          </div>
+        }
+
+      </div> 
+    </div>  
+
+    }
+</div>

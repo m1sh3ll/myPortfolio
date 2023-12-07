@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MyInventory.Models.Project>
+
+@{
+  ViewData["Title"] = "Index";
+}
+
+<h1>My Projects</h1>
+
+
+
+
+<div>
+  <div class="container-fluid">
+    @foreach (var x in Model)
+    {
+      <div class="row">
+        <div class="indexColumnProjects thumbnail">
+          <h2>@x.Title</h2>
+
+          <a class="shadowed" href="@x.ImageURL" target="_blank"><img class="thumbnailIndexProjects" src="@x.ImageURL"></a>
+       
+
+          <div>
+            <p>&nbsp;</p>
+            <p>             
+              @x.Description
+            </p>
+            <a class="nolinelink" href="@x.Link">View Project</a>
+            <br />
+            <br />
+            <hr />
+          </div>
+        </div>
+
+
+      </div>
+     
+
+    }
+  </div>
+</div>

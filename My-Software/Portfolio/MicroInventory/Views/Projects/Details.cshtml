@@ -1,0 +1,56 @@
+﻿@model MyInventory.Models.Project
+
+@{
+  ViewData["Title"] = "Michelle Nesbitt - Project Details";
+}
+
+<div>
+  <h4>
+    @Html.DisplayFor(model => model.Title)
+  </h4>
+  <hr />
+  <p>
+    <a href="@Model.ImageURL" target="_blank"><img class="imageProjectDetails" src="@Model.ImageURL" /></a>
+  </p>
+
+  @Html.DisplayNameFor(model => model.Description):<br />
+
+  @Html.DisplayFor(model => model.Description)
+
+
+  @if (User.Identity.IsAuthenticated)
+  {
+    <dl class="row">
+      <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Title)
+      </dt>
+      <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Title)
+      </dd>
+      <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Link)
+      </dt>
+      <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Link)
+      </dd>
+
+      <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.ImageURL)
+      </dt>
+      <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.ImageURL)
+      </dd>
+
+    </dl>
+    string link1 = "/Projects/Edit/" + @Model?.Id;
+    <a href=@link1>Edit Project</a>
+  }
+</div>
+<div>
+</div>
+
+
+<div>
+ 
+  <a asp-action="Index">Back to Projects List</a>
+</div>

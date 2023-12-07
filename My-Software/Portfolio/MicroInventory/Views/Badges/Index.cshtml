@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MyInventory.Models.Badge>
+
+@{
+  ViewData["Title"] = "Index";
+}
+
+<h1>My Badges and Credentials</h1>
+
+<div>
+  <div class="container-fluid">
+  @foreach (var x in Model)
+  {
+
+      <div class="row">
+
+        
+          <div class="indexColumnProjects thumbnail">            
+              <h4>@x.Title</h4>
+              <img class="thumbnailIndexProjects" src="@x.ImageURL">
+              <div>
+              <p class="stanardDescription">
+                @x.Description
+              </p>
+              <a class="nolinelink" href="@x.Link">View Link</a>  
+              </div>
+          </div>
+        
+
+      </div>
+
+
+    }
+  </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

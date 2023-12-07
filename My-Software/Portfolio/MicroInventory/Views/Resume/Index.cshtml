@@ -1,0 +1,27 @@
+﻿@{
+  ViewData["Title"] = "Michelle Nesbitt - Resume";
+}
+
+<div class="text-center">
+  <h1 class="display-4">Resume</h1> 
+  
+  <object class="pdf" data="~/files/resume-mn-2023.pdf" type="application/pdf" width="100%" height="500">
+    <p>It appears you don't have a PDF plugin for this browser. <br />
+      <a href="~/files/resume-mn-2023.pdf">Click here to download the PDF file.</a></p>
+  </object>
+  <br /> <br /> <br />
+  <button class="btn btn-success" id="downloadButton" type="button">Download</button>
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+      $("#downloadButton").click(function () {
+          // Redirect the user to the PDF file for download
+      window.location.href = "files/resume-mn-2023.pdf";
+      });
+  });
+</script>
