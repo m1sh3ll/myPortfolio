@@ -1,0 +1,11 @@
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\bin\Release\net6.0-windows\VBLibrary.deps.json
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\bin\Release\net6.0-windows\VBLibrary.dll
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\bin\Release\net6.0-windows\VBLibrary.pdb
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\VBLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\VBLibrary.AssemblyInfoInputs.cache
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\VBLibrary.AssemblyInfo.vb
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\VBLibrary.vbproj.CoreCompileInputs.cache
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\VBLibrary.dll
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\refint\VBLibrary.dll
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\VBLibrary.pdb
+E:\Dropbox\MyCommerce\MyCommerce-WPF\MyCommerce\VBLibrary\obj\Release\net6.0-windows\ref\VBLibrary.dll
